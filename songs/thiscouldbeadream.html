@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=1">
+<title>Potion for Love</title>
+<link rel = "icon" href="../media/icon.jpg" type="image/x-icon">
+
+<Style>
+	* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+*,*:after,*:before{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: Helvetica;
+	font-size: 16px;
+	margin: 0;
+	background: #000;
+	min-height: 100vh;
+	background:#000;
+}
+
+button{
+	padding: 10px 25px;
+	font-size: 22px;
+	line-height: 40px;
+	min-width: 40px;
+	text-align: center;
+	cursor: pointer;
+	background: linear-gradient(to right bottom,#fff,#fff);
+	color: #000;
+	border-radius: 5px;
+	border:0px;
+	height: 60px;
+}
+
+h2{
+	text-align: right;
+	color: #fff;
+	margin: 2%;
+}
+h6{
+	text-align: center;
+	color: #fff;
+	margin: 2%;
+}
+h3{
+	color: #fff;
+}
+p{
+	color: #fff;
+	font-size: smaller;
+}
+
+.container{
+	text-align: center;
+}
+
+</Style>
+</head>
+<body>
+    <h1 style="color: #fff; text-align: center; padding: 2%; font-size: 444%;">This Could Be a Dream</h1>
+	<div class="container">
+		<br>
+		<br>
+		<button id="playPauseBTN" onclick="playPause()">Play</button>
+		<audio id="audio">
+			<source src="../mp3/dream.mp3" type="audio/mpeg" script=>
+		</audio>
+		<br>
+		<br>
+		<br>
+	</div>
+		
+<div class="container">
+	<div class="row">
+		<div class="column" style="background-color:#000;">
+			<h3>This Could Be a Dream</h3>
+
+			<p>Look up at the light</p> 
+			<p>This could be a dream or it could be real</p> 
+			<p>Dive in to my mind</p> 
+			<p>And don't come up for air, you won't need it here</p> 
+            <br>
+			<p>Can I move you? Can I serve your fear?</p> 
+			<p>Could you trust love, if I prove it's there?</p> 
+			<p>Oh, I need to know it too</p> 
+			<p>And now I don't feel you</p> 
+            <br>
+			<p>So I lift myself and I close my eyes</p> 
+			<p>And I sing sometimes to know I'm alive</p> 
+			<p>I know I should figure this out on my own</p> 
+			<p>But if you come back could you take me home?</p> 
+			<p>I get back up when the wind is strong</p> 
+			<p>But I wish I knew how it felt to run</p> 
+			<p>I know I'm not alone</p> 
+			<p>And if you come back could you take me home?</p>
+            <br>
+			<p>Being so alive can hurt so very much</p> 
+			<p>When you're losing touch</p> 
+            <br>
+			<p>But if I touch you, would you feel it there?</p> 
+			<p>Could I trust love, even if I'm scared?</p> 
+			<p>Oh, I wish I could give, like I'm longing to give</p> 
+			<p>Oh, I wish I could live, like I'm longing to live</p>
+            <br>
+			<p>And I lift myself and I close my eyes</p> 
+			<p>And I sing sometimes to know I'm alive</p> 
+			<p>I know I should figure this out on my own</p> 
+			<p>But if you come back could you take me home?</p> 
+			<p>I get back up when the wind is strong</p> 
+			<p>But I wish I knew how it felt to run</p> 
+			<p>I know I'm not alone</p> 
+			<p>And if you come back could you take me home?</p> 
+            <br>
+			<p>This could be a dream</p> 
+			<p>This could be a dream</p> 
+            <br>
+			<p>And I lift myself and I close my eyes</p> 
+			<p>And I sing sometimes to know I'm alive</p> 
+			<p>I know I should figure this out on my own</p> 
+			<p>But if you come back will you take me home?</p> 
+			<p>I get back up when the wind is strong</p> 
+			<p>But I wish I knew how it felt to run</p> 
+			<p>I know I'm not alone</p> 
+			<p>And if you would come could you take me home?</p> 
+
+		</div>
+		<div class="column" style="background-color:#000;">
+			<h3>Esto Podria Ser Un Sueño</h3>
+            
+			<p>Mira la luz</p> 
+			<p>Esto podría ser un sueño o podría ser real</p> 
+			<p>Sumérgete en mi mente</p> 
+			<p>¿Puedo moverte? ¿Puedo servir a tu miedo?</p> 
+			<p>¿Podrás confiar en el amor, si demuestro que está ahí?</p> 
+			<p>Oh, yo también necesito saberlo</p> 
+			<p>Y ahora no te siento</p>
+            <br>
+            <p>Así que me levanto y cierro los ojos</p>
+            <p>Y canto a veces para saber que estoy viva</p>
+            <p>Sé que debería averiguar esto por mi cuenta</p>
+            <p>Pero si vuelves, ¿podrías llevarme a casa?</p>
+            <p>Me levanto cuando el viento es fuerte</p>
+            <p>Pero ojalá supiera cómo se sentía correr</p>
+            <p>Sé que no estoy sola</p>
+            <p>Y si vuelves, ¿podrías llevarme a casa?</p>
+            <br>
+            <p>Estar tan viva puede doler mucho</p>
+            <p>Cuando estás perdiendo el toque</p>
+            <p>Pero si te toco, ¿lo sentirías allí?</p>
+            <p>¿Podría confiar en el amor, incluso si tengo miedo?</p>
+            <p>Oh, ojalá pudiera dar, como si estuviera deseando dar</p>
+            <p>Oh, ojalá pudiera vivir, como si estuviera anhelando vivir</p>
+            <br>
+            <p>Así que me levanto y cierro los ojos</p>
+            <p>Y canto a veces para saber que estoy viva</p>
+            <p>Sé que debería averiguar esto por mi cuenta</p>
+            <p>Pero si vuelves, ¿podrías llevarme a casa?</p>
+            <p>Me levanto cuando el viento es fuerte</p>
+            <p>Pero ojalá supiera cómo se sentía correr</p>
+            <p>Sé que no estoy sola</p>
+            <p>Y si vuelves, ¿podrías llevarme a casa?</p>
+            <br>
+            <p>Esto podría ser un sueño</p>
+            <p>Esto podría ser un sueño</p>
+            <br>
+            <p>Así que me levanto y cierro los ojos</p>
+            <p>Y canto a veces para saber que estoy viva</p>
+            <p>Sé que debería averiguar esto por mi cuenta</p>
+            <p>Pero si vuelves, ¿podrías llevarme a casa?</p>
+            <p>Me levanto cuando el viento es fuerte</p>
+            <p>Pero ojalá supiera cómo se sentía correr</p>
+            <p>Sé que no estoy sola</p>
+            <p>Y si vuelves, ¿podrías llevarme a casa?</p>
+            
+		</div>
+		<div class="column" style="background-color:#000;">
+			<h3>Es könnte ein Traum sein</h3>
+                     
+			<p>Schau nach oben, auf das Licht</p> 
+			<p>Es könnte ein Traum sein</p> 
+			<p>Oder aber auch nicht</p> 
+			<p>Tauche in meine Seele ein</p> 
+			<p>Und komm nicht rauf um Luft zu holen,</p> 
+			<p>Denn brauchen wirst du sie hier nicht</p> 
+			<p>Darf ich dir eine neue Sichtweise geben</p> 
+			<p>Kann ich dienlich sein mit deiner Angst umzugehen?</p> 
+			<p>Ist es dir möglich der Liebe vertrauen zu schenken,</p> 
+			<p>Falls ich es darauf anlege herauszubekommen, ob sie wirklich existiert?</p> 
+			<p>Oh, ich will es auch herausbekommen</p> 
+			<p>Und ausgerechnet jetzt kann ich deine Anwesenheit nicht spüren</p> 
+            <br>
+			<p>Und darum baue ich mich selber auf, ich schließe meine Augen</p> 
+			<p>Und manchmal da singe ich ein Lied um zu spüren, dass ich am Leben bin</p> 
+			<p>Ich weiß, ich sollte da ganz alleine drauf kommen</p> 
+			<p>Doch wenn du wieder zurück kommst, würdest du mich dann nach hause mitnehmen?</p> 
+			<p>Dann wenn der Wind stark bläst kann ich wieder stehen,</p> 
+			<p>Doch ich wünscht', ich wüsste wie's sich anfühlt schnell zu gehen</p> 
+			<p>Ich weiß, ich bin nicht allein</p> 
+			<p>Und wenn du zurück kommst, kannst du mich dann mit nach hause mitnehmen?</p> 
+            <br>
+			<p>Sich lebendig zu fühl'n kann so sehr weh tun</p> 
+			<p>Wenn man den direkten Kontakt verliert</p> 
+			<p>Doch wenn ich dich berühre würde, würdest du es dort dann spüren?</p> 
+			<p>Wäre es mir möglich der Liebe vertrauen zu schenken, auch dann, wenn ich ängstlich bin?</p> 
+			<p>Ach, ich wünschte ich wäre in der Lage so viel zu geben, wie ich mich danach sehne das ich geben könnt'</p> 
+			<p>Ach, ich wünschte ich könnte mein Leben so leben, so wie ich mich in meinem Herzen danach sehn'</p> 
+			<br>
+            <p>Und ich helf' mir selber wieder auf die Beine und schließe meine Augen</p> 
+			<p>Und manchmal da singe ich ein Lied um zu spüren, dass ich am Leben bin</p> 
+			<p>Ich weiß, ich sollte da selber drauf kommen</p> 
+			<p>Doch wenn du zurück kommst, würdest du mich dann nach hause bringen?</p> 
+			<p>Dann wenn der Wind stark bläst kann ich wieder stehen,</p> 
+			<p>Doch ich wünscht', ich wüsste wie's sich anfühlt schnell zu gehen</p> 
+			<p>Ich weiß, ich bin nicht allein</p> 
+			<p>Und wenn du zurück kommst, kannst du mich dann nach hause bringen?</p> 
+            <br>
+			<p>Das könnte ein Traum sein</p> 
+			<p>Das könnte ein Traum sein</p> 
+            <br>
+			<p>Und ich helf' mir selber wieder auf die Beine und schließe meine Augen</p> 
+			<p>Und manchmal da singe ich ein Lied um zu spüren, dass ich am Leben bin</p> 
+			<p>Ich weiß, ich sollte da selber drauf kommen</p> 
+			<p>Doch wenn du zurück kommst, würdest du mich dann nach hause bringen?</p> 
+			<p>Dann wenn der Wind stark bläst kann ich wieder stehen,</p> 
+			<p>Doch ich wünscht', ich wüsste wie's sich anfühlt schnell zu gehen</p> 
+			<p>Ich weiß, ich bin nicht allein</p> 
+			<p>Und wenn du zurück kommst, kannst du mich dann nach hause bringen?</p> 
+		
+		</div>
+		</div>
+	</div>
+</div>
+<div class="container">
+	<h2>-Aurora Aksnes (January 21, 2022)</h2>
+	<h6>
+		<footer>AURORA &copy; Copyright. All Rights Reserved </footer> 
+	</h6>
+</div>
+<script>
+    var audio = document.getElementById('audio');
+	var playPauseBTN = document.getElementById('playPauseBTN');
+    var count = 0;
+
+	function playPause(){
+	    if(count == 0){
+            count = 1;
+            audio.play();
+            playPauseBTN.innerHTML = "Pause";
+	    }else{
+		    count = 0;
+		    audio.pause();
+		    playPauseBTN.innerHTML = "Play";
+	    }
+    }
+</script>
+</body>
+</html>

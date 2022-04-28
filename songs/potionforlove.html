@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=1">
+<title>Potion for Love</title>
+<link rel = "icon" href="../media/icon.jpg" type="image/x-icon">
+
+<Style>
+	* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+*,*:after,*:before{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: Helvetica;
+	font-size: 16px;
+	margin: 0;
+	background: #000;
+	min-height: 100vh;
+	background:#000;
+}
+
+button{
+	padding: 10px 25px;
+	font-size: 22px;
+	line-height: 40px;
+	min-width: 40px;
+	text-align: center;
+	cursor: pointer;
+	background: linear-gradient(to right bottom,#fff,#fff);
+	color: #000;
+	border-radius: 5px;
+	border:0px;
+	height: 60px;
+}
+
+h2{
+	text-align: right;
+	color: #fff;
+	margin: 2%;
+}
+h6{
+	text-align: center;
+	color: #fff;
+	margin: 2%;
+}
+h3{
+	color: #fff;
+}
+p{
+	color: #fff;
+	font-size: smaller;
+}
+
+.container{
+	text-align: center;
+}
+
+</Style>
+</head>
+<body>
+	<h1 style="color: #fff; text-align: center; padding: 2%; font-size: 444%;">Potion For love</h1>
+	<div class="container">
+		<br>
+		<br>
+		<button id="playPauseBTN" onclick="playPause()">Play</button>
+		<audio id="audio">
+			<source src="../mp3/potion.mp3" type="audio/mpeg" script=>
+		</audio>
+		<br>
+		<br>
+		<br>
+	</div>
+		
+<div class="container">
+	<div class="row">
+		<div class="column" style="background-color:#000;">
+			<h3>Potion For love</h3>
+			<p>When I lay in your arms, and our worlds can collide</p> 
+			<p>Into one atmosphere, we are here 'till we're not</p>
+			<br>
+			<p>When I see you again, as a stranger or a friend</p>
+			<p>Could you give me a kiss from the past?</p>
+			<p>Make it soft, make it last, like a lake in a glass</p>
+			<p>Like an endless reminder of us</p>
+			<br>
+			<p>I don't feel love anymore</p>
+			<p>And how it hurts when I walked out of the door</p>
+			<p>Forgetting why we fell in love, hurts me the most</p>
+			<br>
+			<p>I recall our minds being strange and alike</p>
+			<p>You were quiet the most, I would watch and explode</p>
+			<p>With a storm in my mind, you would understand why</p>
+			<p>They all name hurricanes after us</p>
+			<br>
+			<p>When I see you again, as a stranger or a friend</p>
+			<p>I will give you a kiss from the past</p>
+			<p>I will send you away, hoping you'll be okay</p>
+			<p>With a piece of your heart living in mine</p>
+			<br>				
+			<p>I don't feel love anymore</p>
+			<p>And how it hurts when you walked out of the door</p>
+			<p>Forgetting why we fell in love, hurts me the most</p>
+			<br>
+			<p>I don't feel love anymore</p>
+			<p>And how it hurts when you walk out of the door</p>
+			<p>Forgetting why we fell in love, hurts me the most</p>	
+		</div>
+		<div class="column" style="background-color:#000;">
+			<h3>Poción de amor</h3>
+
+			<p>Cuando me acuesto en tus brazos, y nuestros mundos pueden chocar</p>
+			<p>En una atmósfera, estamos aquí hasta que no estemos</p>
+			<br>
+			<p>Cuando te vuelva a ver, como un extraño o como un amigo</p>
+			<p>¿Podrías darme un beso del pasado?</p>
+			<p>Hazlo suave, hazlo durar</p>
+			<p>Como un lago en el cristal</p>
+			<p>Como un recordatorio interminable de nosotros</p>
+			<br>
+			<p>Ya no siento amor</p>
+			<p>Y como duele cuando sales por la puerta</p>
+			<p>Olvidar por qué nos enamoramos, me duele más</p>
+			<br>
+			<p>Recuerdo que nuestras mentes eran extrañas y parecidas</p>
+			<p>Estabas más callado, yo miraba y explotaba</p>
+			<p>Con la tormenta en mi mente, entenderías por qué</p>
+			<p>Todos nombran a los huracanes como nosotros</p>
+			<br>
+			<p>Cuando te vuelva a ver, como un extraño o como un amigo</p>
+			<p>Te daré un beso del pasado</p>
+			<p>Te enviaré lejos, esperando que estés bien</p>
+			<p>Con un pedazo de tu corazón</p>
+			<p>Viviendo en el mio</p>
+			<br>
+			<p>Ya no siento amor</p>
+			<p>Y como duele cuando sales por la puerta</p>
+			<p>Olvidar por qué nos enamoramos, me duele más</p>
+			<br>
+			<p>Ya no siento amor</p>
+			<p>Y como duele cuando sales por la puerta</p>
+			<p>Olvidar por qué nos enamoramos, me duele más</p>
+		</div>
+		<div class="column" style="background-color:#000;">
+			<h3>Trank für die Liebe</h3>
+
+			<p>Wenn ich in deinen Armen liege und unsere Welten kollidieren können</p>
+			<p>In einer Atmosphäre sind wir hier, bis wir es nicht sind</p>
+			<br>
+			<p>Wenn ich dich wiedersehe, als Fremder oder Freund</p>
+			<p>Könntest du mir einen Kuss aus der Vergangenheit geben?</p>
+			<p>Mach es weich, mach es haltbar, wie ein See im Glas</p>
+			<p>Wie eine endlose Erinnerung an uns</p>
+			<br>
+			<p>Ich fühle keine Liebe mehr</p>
+			<p>Und wie es weh tut, wenn ich aus der Tür gehe</p>
+			<p>Zu vergessen, warum wir uns verliebt haben, tut mir am meisten weh</p>
+			<br>
+			<p>Ich erinnere mich, dass unsere Gedanken seltsam und ähnlich waren</p>
+			<p>Du warst am ruhigsten, ich würde zusehen und explodieren</p>
+			<p>Mit einem Sturm in meinem Kopf würdest du verstehen warum</p>
+			<p>Sie alle benennen Hurrikane nach uns</p>
+			<br>
+			<p>Wenn ich dich wiedersehe, als Fremder oder Freund</p>
+			<p>Ich werde dir einen Kuss aus der Vergangenheit geben</p>
+			<p>Ich schicke dich weg in der Hoffnung, dass es dir gut geht</p>
+			<p>Mit einem Stück deines Herzens, das in meinem lebt</p>
+			<br>
+			<p>Ich fühle keine Liebe mehr</p>
+			<p>Und wie es weh tut, wenn du aus der Tür gehst</p>
+			<p>Zu vergessen, warum wir uns verliebt haben, tut mir am meisten weh</p>
+			<br>
+			<p>Ich fühle keine Liebe mehr</p>
+			<p>Und wie es weh tut, wenn du aus der Tür gehst</p>
+			<p>Zu vergessen, warum wir uns verliebt haben, tut mir am meisten weh</p>
+		</div>
+		</div>
+	</div>
+</div>
+<div class="container">
+	<h2>-Aurora Aksnes (July 9, 2021)</h2>
+	<h6>
+		<footer>AURORA &copy; Copyright. All Rights Reserved </footer> 
+	</h6>
+</div>
+<script>
+    var audio = document.getElementById('audio');
+	var playPauseBTN = document.getElementById('playPauseBTN');
+    var count = 0;
+
+	function playPause(){
+	    if(count == 0){
+            count = 1;
+            audio.play();
+            playPauseBTN.innerHTML = "Pause";
+	    }else{
+		    count = 0;
+		    audio.pause();
+		    playPauseBTN.innerHTML = "Play";
+	    }
+    }
+</script>
+</body>
+</html>
