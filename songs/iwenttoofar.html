@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=1">
+
+<!-- TITULO DE LA PESTAÑA -->
+<title>I Went Too Far</title>
+
+<link rel = "icon" href="/media/icon.jpg" type="image/x-icon">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<Style>
+	* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+*,*:after,*:before{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: Helvetica;
+	font-size: 16px;
+	margin: 0;
+	background: #000;
+	min-height: 100vh;
+	background:#000;
+}
+
+button{
+	padding: 10px 25px;
+	font-size: 22px;
+	line-height: 40px;
+	min-width: 40px;
+	text-align: center;
+	cursor: pointer;
+	background: linear-gradient(to right bottom,#fff,#fff);
+	color: #000;
+	border-radius: 5px;
+	border:0px;
+	height: 60px;
+}
+
+h2{
+	text-align: right;
+	color: #fff;
+	margin: 2%;
+}
+h6{
+	text-align: center;
+	color: #fff;
+	margin: 2%;
+}
+h3{
+	color: #fff;
+}
+p{
+	color: #fff;
+	font-size: smaller;
+}
+.container{
+	text-align: center;
+}
+.col-1{
+	padding: 6%;
+}
+
+</Style>
+</head>
+<body>
+    <!-- TITULO DE LA PAGINA -->
+    <h1 style="color: #fff; text-align: center; padding: 2%; font-size: 444%;">I Went Too Far</h1>
+    <div class="container">
+        <br>
+		<br>
+		<button id="playPauseBTN" onclick="playPause()">Play</button>
+		<audio id="audio">
+			<source src="../mp3/far.mp3" type="audio/mpeg" script=>
+		</audio>
+		<br>
+		<br>
+		<br>
+	</div>
+
+<div class="container">
+	<div class="row">
+		<div class="col-1 col-lg-4">
+            <!-- LETRA EN INGLES -->
+			<h3>I Went Too Far</h3>
+			<br>
+			<p>I went too far when I was begging on my knees<br>
+			Begging for your arms, for you to hold around me<br>
+			I went too far and kissed the ground beneath your feet<br>
+			Waiting for your love, waiting for our eyes to meet<br>
+			<br>
+			Crying, give me some love, give me some love and hold me<br>
+			Give me some love and hold me tight<br>
+			Oh, give me some love, give me some love and hold me<br>
+			Give me some love and hold me tight<br>
+			<br>
+			I went too far when I was begging on my knees<br>
+			When I cut my hands, so you could stand and watch me bleed<br>
+			I went too far and kissed the ground beneath your feet<br>
+			Standing in my blood, it was a taste of bittersweet<br>
+			<br>
+			Crying, give me some love, give me some love and hold me<br>
+			Give me some love and hold me tight<br>
+			Oh, give me some love, give me some love and hold me<br>
+			Give me some love and hold me tight<br>
+			<br>
+			Why can't I turn around and walk away?<br>
+			Go back in time?<br>
+			I had to turn around and walk away<br>
+			I couldn't stay, I had to walk away<br>
+			<br>
+			I'm left behind with an empty hole<br>
+			And everything I am is gone<br>
+			I tried to reach for another soul<br>
+			So I can feel whole<br>
+			<br>
+			Oh, give me some love<br>
+			Oh, give me some love<br>
+			<br>
+			Oh, give me some love, give me some love and hold me<br>
+			Give me some love and hold me tight<br>
+			Oh, give me some love, give me some love and hold me<br>
+			Give me some love and hold me tight<br>
+			<br>
+			Why can't I turn around and walk away?<br>
+			Go back in time?<br>
+			I had to turn around and walk away<br>
+			I couldn't stay, I had to walk away</p> 
+ 
+		</div>
+		<div class="col-1 col-lg-4">
+            <!-- LETRA EN ESPAÑOL -->
+			<h3>Fui demasiado lejos</h3>
+            <br>
+			<p>Fui demasiado lejos cuando estaba rogando de rodillas<br>
+			Rogando tus brazos, que los sostengas a mi alrededor<br>
+			Fui demasiado lejos y besé el suelo bajo tus pies<br>
+			Esperando a tu amor, esperando que nuestros ojos se encuentren<br>
+			<br>
+			Llorando dame un poco de amor, dame un poco de amor y abrázame<br>
+			Dame un poco de amor y abrázame fuerte<br>
+			Oh, dame un poco de amor, dame un poco de amor y abrázame<br>
+			Dame un poco de amor y abrázame fuerte<br>
+			<br>
+			Fui demasiado lejos cuando estaba rogando de rodillas<br>
+			Cuando me corté las manos, para que pudieras pararte y verme sangrar<br>
+			Fui demasiado lejos y besé el suelo bajo tus pies<br>
+			De pie en mi sangre, era un sabor agridulce<br>
+			<br>
+			Llorando dame un poco de amor, dame un poco de amor y abrázame<br>
+			Dame un poco de amor y abrázame fuerte<br>
+			Oh, dame un poco de amor, dame un poco de amor y abrázame<br>
+			Dame un poco de amor y abrázame fuerte<br>
+			<br>
+			¿Por qué no puedo dar la vuelta y marcharme?<br>
+			¿Retroceder en el tiempo?<br>
+			Tendré que dar la vuelta y marcharme<br>
+			No podía quedarme, tuve que marcharme<br>
+			<br>
+			Me quedo atrás con un agujero vacío<br>
+			Y todo lo que soy se ha ido<br>
+			Traté de alcanzar otra alma<br>
+			Así que puedo sentirme entero<br>
+			<br>
+			Oh, dame un poco de amor<br>
+			Oh, dame un poco de amor<br>
+			<br>
+			Oh, dame un poco de amor, dame un poco de amor y abrázame<br>
+			Dame un poco de amor y abrázame fuerte<br>
+			Oh, dame un poco de amor, dame un poco de amor y abrázame<br>
+			Dame un poco de amor y abrázame fuerte<br>
+			<br>
+			¿Por qué no puedo dar la vuelta y marcharme?<br>
+			¿Retroceder en el tiempo?<br>
+			Tendré que dar la vuelta y marcharme<br>
+			No podía quedarme, tuve que marcharme</p>
+			
+		</div>
+		<div class="col-1 col-lg-4">
+            <!-- LETRA EN ALEMAN -->
+			<h3>Ich ging zu weit</h3>
+			<br>
+			<p>Ich ging zu weit, als ich auf meinen Knien flehte<br>
+			Flehte um deine Arme, dass du mich mit ihnen hältst<br>
+			Ich ging zu weit und küsste den Boden unter deinen Füßen<br>
+			Wartete auf deine Liebe, wartete darauf, dass sich unsere Augen treffen<br>
+			<br>
+			Schreie ,,gib mir ein wenig Liebe, gib mir ein wenig Liebe und halte mich<br>
+			Gib mir ein wenig Liebe und halte mich fest<br>
+			Oh, gib mir ein wenig Liebe, gib mir ein wenig Liebe und halte mich<br>
+			Gib mir ein wenig Liebe und halte mich fest"<br>
+			<br> 
+			Ich ging zu weit, als ich auf meinen Knien flehte<br>
+			Als ich mir in die Hände schnitt, wirst du nur dastehen und zusehen, wie ich blute?<br>
+			Ich ging zu weit und küsste den Boden unter deinen Füßen<br>
+			Stehe in meinem Blut, es war ein bittersüßer Geschmack<br>
+			<br> 
+			Schreie ,,gib mir ein wenig Liebe, gib mir ein wenig Liebe und halte mich<br>
+			Gib mir ein wenig Liebe und halte mich fest<br>
+			Oh, gib mir ein wenig Liebe, gib mir ein wenig Liebe und halte mich<br>
+			Gib mir ein wenig Liebe und halte mich fest"<br>
+			<br> 
+			Warum kann ich mich nicht umdrehen und weggehen?<br>
+			Zurück in der Zeit gehen?<br>
+			Ich muss mich umdrehen und weggehen<br>
+			Ich kann nicht bleiben, ich muss weggehen<br>
+			<br> 
+			Ein leeres Herz mit einem leeren Loch<br>
+			Und alles was ich bin, ist weg<br>
+			Ich versuchte eine andere Seele zu erreichen<br>
+			Damit ich mich komplett fühlen kann<br>
+			<br> 
+			Oh, gib mir ein wenig Liebe<br>
+			Oh, gib mir ein wenig Liebe<br>
+			<br> 
+			Gib mir ein wenig Liebe, gib mir ein wenig Liebe und halte mich<br>
+			Gib mir ein wenig Liebe und halte mich fest<br>
+			Oh, gib mir ein wenig Liebe, gib mir ein wenig Liebe und halte mich<br>
+			Gib mir ein wenig Liebe und halte mich fest<br>
+			<br>
+			Warum kann ich mich nicht umdrehen und weggehen?<br>
+			Zurück in der Zeit gehen?<br>
+			Ich muss mich umdrehen und weggehen<br>
+			Ich kann nicht bleiben, ich mus weggehen</p>
+			
+		</div>  
+	</div>
+</div>
+
+<div class="container">
+    <!-- AÑO EN QUE FUE LANZADA LA CANCION -->
+	<h2>-Aurora Aksnes (March 11, 2016)</h2>
+	<br>
+    <br>
+    <br>
+	<h6>
+        <!-- FOOTER -->
+		<footer>AURORA &copy; Copyright. All Rights Reserved </footer> 
+	</h6>
+</div>
+<script>
+    var audio = document.getElementById('audio');
+	var playPauseBTN = document.getElementById('playPauseBTN');
+    var count = 0;
+
+	function playPause(){
+	    if(count == 0){
+            count = 1;
+            audio.play();
+            playPauseBTN.innerHTML = "Pause";
+	    }else{
+		    count = 0;
+		    audio.pause();
+		    playPauseBTN.innerHTML = "Play";
+	    }
+    }
+</script>
+</body>
+</html>
