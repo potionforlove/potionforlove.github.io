@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=1">
+
+<!-- TITULO DE LA PESTAÑA -->
+<title>Exist For Love</title>
+
+<link rel = "icon" href="/media/icon.jpg" type="image/x-icon">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<Style>
+	* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+*,*:after,*:before{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: Helvetica;
+	font-size: 16px;
+	margin: 0;
+	background: #000;
+	min-height: 100vh;
+	background:#000;
+}
+
+button{
+	padding: 10px 25px;
+	font-size: 22px;
+	line-height: 40px;
+	min-width: 40px;
+	text-align: center;
+	cursor: pointer;
+	background: linear-gradient(to right bottom,#fff,#fff);
+	color: #000;
+	border-radius: 5px;
+	border:0px;
+	height: 60px;
+}
+
+h2{
+	text-align: right;
+	color: #fff;
+	margin: 2%;
+}
+h6{
+	text-align: center;
+	color: #fff;
+	margin: 2%;
+}
+h3{
+	color: #fff;
+}
+p{
+	color: #fff;
+	font-size: smaller;
+}
+.container{
+	text-align: center;
+}
+.col-1{
+	padding: 6%;
+}
+
+</Style>
+</head>
+<body>
+    <!-- TITULO DE LA PAGINA -->
+    <h1 style="color: #fff; text-align: center; padding: 2%; font-size: 444%;">Exist For Love</h1>
+    <div class="container">
+        <br>
+		<br>
+		<button id="playPauseBTN" onclick="playPause()">Play</button>
+		<audio id="audio">
+			<source src="../mp3/love.mp3" type="audio/mpeg" script=>
+		</audio>
+		<br>
+		<br>
+		<br>
+	</div>
+
+<div class="container">
+	<div class="row">
+		<div class="col-1 col-md-4">
+            <!-- LETRA EN INGLES -->
+			<h3>Exist For Love</h3>
+    
+            <p>They say there is a war<br>
+            Between the man and the woman (Ah-ah-ah, ah-ah-ah)<br>
+            I've never felt like this before<br>
+            My heart knew that I couldn't (Ah-ah-ah)<br>
+            <br>
+            And then you take me in<br>
+            And everything in me begins to feel like I belong<br>
+            Like everybody needs a home<br>
+            And when I take your hand<br>
+            Like the world has never held a man<br>
+            I know I cannot heal the hurt<br>
+            But I will hold you here forever<br>
+            If I can, if I can<br>
+            <br>
+            And then I learned the truth<br>
+            How everything good in life seems to lead back to you<br>
+            And every single time I run into your arms<br>
+            I feel like I exist for love<br>
+            Like I exist for love<br>
+            Only for love<br>
+            <br>
+            I can't imagine how it is to be forbidden from loving (Ah-ah-ah, ah-ah-ah)<br>
+            'Cause when you walked into my life<br>
+            I could feel my life begin<br>
+            Like I was torn apart the minute I was only born<br>
+            <br>
+            And you're the other half<br>
+            The only thing that makes me whole<br>
+            I know it sounds like a lot<br>
+            But you really need to know<br>
+            We are leaning out for love<br>
+            And we will lean for love forever, I know<br>
+            I love you so<br>
+            <br>
+            And then I learned the truth<br>
+            How everything good in life seems to lead back to you<br>
+            And every single time I run into your arms<br>
+            I feel like I exist for love<br>
+            Only for love<br>
+            <br>
+            And when you say my name<br>
+            Like white horses on the waves<br>
+            I think it feels the same<br>
+            As an ocean in my veins<br>
+            And you'll be diving in<br>
+            Like nothing is out of place<br>
+            And we exist for love<br>
+            Only for love<br>
+            <br>
+            And I love you, I love you, I love you<br>
+            And I love you, I love you, I love you</p>
+ 
+		</div>
+		<div class="col-1 col-md-4">
+            <!-- LETRA EN ESPAÑOL -->
+			<h3>Existir Por Amor</h3>
+            
+			<p>Dicen que hay guerra<br>
+            Entre el hombre y la mujer<br>
+            Nunca me he sentido así antes<br>
+            Mi corazón sabía que no podía<br>
+            <br>
+            Y luego me llevas<br>
+            Y todo en mí comienza a sentir como si perteneciera<br>
+            Como si todos necesitaran un hogar<br>
+            Y cuando tomo tu mano<br>
+            Como si el mundo nunca hubiera retenido a un hombre<br>
+            Sé que no puedo curar el dolor<br>
+            Pero te retendré aquí para siempre<br>
+            <br>
+            Si puedo, si puedo<br>
+            Y que amo la verdad<br>
+            Cómo todo lo bueno vivo me canta de vuelta a ti<br>
+            Y cada vez que corro a tus brazos<br>
+            Siento que existo por amor<br>
+            Como si existiera por amor<br>
+            Solo por amor<br>
+            <br>
+            No puedo imaginar cómo es que se me prohíba amar<br>
+            Porque cuando entraste en mi vida<br>
+            Podía sentir mi vida comenzar<br>
+            Como si estuviera destrozado<br>
+            En el momento en que nací<br>
+            Y tú eres la otra mitad<br>
+            Lo único que me hace completo<br>
+            Sé que suena mucho<br>
+            <br>
+            Pero realmente necesitas saber<br>
+            Nos estamos inclinando por amor<br>
+            Y nos inclinaremos por siempre<br>
+            Lo sé<br>
+            Te amo tanto<br>
+            Y que aprendí la verdad<br>
+            Cómo todo lo bueno vivo parece devolverte<br>
+            Y cada vez que corro a tus brazos<br>
+            Siento que existo por amor<br>
+            Solo por amor<br>
+            <br>
+            Y cuando dices mi nombre<br>
+            Me gustaron los caballos blancos en las olas<br>
+            Creo que se siente igual<br>
+            Como un océano en mis venas<br>
+            Y tú te sumergirás<br>
+            Como si nada estuviera fuera de lugar<br>
+            Y existimos por amor<br>
+            Solo por amor<br>
+            <br>
+            Y te amo, te amo, te amo<br>
+            Y te amo, te amo, te amo</p> 
+			
+		</div>
+		<div class="col-1 col-md-4">
+            <!-- LETRA EN ALEMAN -->
+			<h3>Existieren für Liebe</h3>
+                     
+            <p>Sie sagen es gibt Krieg<br>
+            Zwischen Mann und Frau<br>
+            Ich fühlte noch nie wie jetzt<br>
+            Mein Herz weiß, dass ich nicht konnte<br>
+            <br>
+            Und dann brachtest du mich herein<br>
+            Und alles in mir begann sich Zuhause zu fühlen<br>
+            Dass jeder eine Zuflucht braucht<br>
+            Und wenn ich deine Hand nehme<br>
+            Wie die Welt nie einen Mann hielt<br>
+            Ich weiß, ich kann kein Schmerz heilen<br>
+            Aber ich halte dich für immer<br>
+            Wenn ich kann, wenn ich kann<br>
+            <br>
+            Und dann lernte ich die Wahrheit<br>
+            Dass alles was gut ist im Leben<br>
+            Sich auf dich bezieht<br>
+            Und jedes einz'ge Mal Lauf ich in deine Arme<br>
+            Ich fühle, dass ich wegen Liebe lebe<br>
+            Dass ich für Liebe lebe<br>
+            Nur für Liebe<br>
+            <br>
+            Ich kann mir nicht vorstellen<br>
+            Nicht lieben zu dürfen<br>
+            Denn als du in mein Leben tratst<br>
+            Konnte ich fühlen, wie es begann<br>
+            <br>
+            Als wäre ich zweigeteilt<br>
+            Seit ich geboren bin<br>
+            Und du bist die andere Hälfte<br>
+            Dass was mich ergänzt<br>
+            Ich weiß es hört sich viel an<br>
+            Aber du musst wirklich wissen<br>
+            Wir sehnen uns nach Liebe<br>
+            Und wir werden für immer nach Liebe sehnen<br>
+            Ich weiß, Ich liebe dich so<br>
+            <br>
+            Und dann lernte ich die Wahrheit<br>
+            Dass alles was gut ist im Leben<br>
+            Sich auf dich bezieht<br>
+            Und jedes einz'ge Mal Lauf ich in deine Arme<br>
+            Ich fühle, dass ich wegen Liebe lebe<br>
+            Nur für Liebe<br>
+            <br>
+            Und wenn du mein Name sagst<br>
+            Wie Weiße Pferde auf Wellen<br>
+            Denk ich fühlt es sich an<br>
+            Wie ein Ozean in meinen Adern<br>
+            Und du tauchst ein<br>
+            Als wäre alles am rechten Platz<br>
+            Und wir leben für Liebe<br>
+            Nur für Liebe<br>
+            <br>
+            Und ich liebe dich, ich liebe dich, ich liebe dich<br>
+            Und ich liebe dich, ich liebe dich, ich liebe dich</p>
+			
+		</div>  
+	</div>
+</div>
+
+<div class="container">
+    <!-- AÑO EN QUE FUE LANZADA LA CANCION -->
+	<h2>-Aurora Aksnes (May 14, 2020)</h2>
+	<br>
+    <br>
+    <br>
+	<h6>
+        <!-- FOOTER -->
+		<footer>AURORA &copy; Copyright. All Rights Reserved </footer> 
+	</h6>
+</div>
+<script>
+    var audio = document.getElementById('audio');
+	var playPauseBTN = document.getElementById('playPauseBTN');
+    var count = 0;
+
+	function playPause(){
+	    if(count == 0){
+            count = 1;
+            audio.play();
+            playPauseBTN.innerHTML = "Pause";
+	    }else{
+		    count = 0;
+		    audio.pause();
+		    playPauseBTN.innerHTML = "Play";
+	    }
+    }
+</script>
+</body>
+</html>
