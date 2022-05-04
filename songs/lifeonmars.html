@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=1">
+
+<!-- TITULO DE LA PESTAÑA -->
+<title>Life On Mars</title>
+
+<link rel = "icon" href="/media/icon.jpg" type="image/x-icon">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<Style>
+	* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+*,*:after,*:before{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: Helvetica;
+	font-size: 16px;
+	margin: 0;
+	background: #000;
+	min-height: 100vh;
+	background:#000;
+}
+
+button{
+	padding: 10px 25px;
+	font-size: 22px;
+	line-height: 40px;
+	min-width: 40px;
+	text-align: center;
+	cursor: pointer;
+	background: linear-gradient(to right bottom,#fff,#fff);
+	color: #000;
+	border-radius: 5px;
+	border:0px;
+	height: 60px;
+}
+
+h2{
+	text-align: right;
+	color: #fff;
+	margin: 2%;
+}
+h6{
+	text-align: center;
+	color: #fff;
+	margin: 2%;
+}
+h3{
+	color: #fff;
+}
+p{
+	color: #fff;
+	font-size: smaller;
+}
+.container{
+	text-align: center;
+}
+.col-1{
+	padding: 6%;
+}
+
+</Style>
+</head>
+<body>
+    <!-- TITULO DE LA PAGINA -->
+    <h1 style="color: #fff; text-align: center; padding: 2%; font-size: 444%;">Life On Mars</h1>
+    <div class="container">
+        <br>
+		<br>
+		<button id="playPauseBTN" onclick="playPause()">Play</button>
+		<audio id="audio">
+			<source src="../mp3/mars.mp3" type="audio/mpeg" script=>
+		</audio>
+		<br>
+		<br>
+		<br>
+	</div>
+
+<div class="container">
+	<div class="row">
+		<div class="col-1 col-md-4">
+            <!-- LETRA EN INGLES -->
+			<h3>Life On Mars</h3>
+
+            <p>It's a god-awful small affair<br>
+            To the girl with the mousy hair<br>
+            But her mommy is yelling "No"<br>
+            And her daddy has told her to go<br>
+            But her friend is nowhere to be seen<br>
+            Now she walks through a sunken dream<br>
+            To the seat with the clearest view<br>
+            And she's hooked to the silver screen<br>
+            <br>
+            But the film is a saddening bore<br>
+            Cause she's seen it ten times or more<br>
+            She could spit in the eyes of fools<br>
+            As they ask her to focus on<br>
+            <br>
+            Sailors fighting in the dance hall<br>
+            Oh man! Look at those cavemen go<br>
+            It's the freakiest show<br>
+            Take a look at the lawman<br>
+            Beating up the wrong guy<br>
+            Oh man! Wonder if he'll ever know<br>
+            He's on the best selling show<br>
+            Is there life on Mars?<br>
+            <br>
+            It's on America's tortured brow<br>
+            That Mickey Mouse has grown up a cow<br>
+            Now the workers have struck for fame<br>
+            'Cause Lennon's on sale again<br>
+            See the mice with their million hordes<br>
+            From Ibiza to the Norfolk Broads<br>
+            Rule Britannia is out of bounds<br>
+            To my mother, my dog, and clowns<br>
+            <br>
+            But the film is a saddening bore<br>
+            Cause she writ it ten times or more<br>
+            It's about to be writ again<br>
+            And I ask you to focus on<br>
+            <br>
+            Sailors fighting in the dance hall<br>
+            Oh man! Look at those cavemen go<br>
+            It's the freakiest show<br>
+            Take a look at the lawman<br>
+            Beating up the wrong guy<br>
+            Oh man! Wonder if he'll ever know<br>
+            He's on the best selling show<br>
+            Is there life on Mars?<br>
+            Is there life on Mars?</p>
+		</div>
+		<div class="col-1 col-md-4">
+            <!-- LETRA EN ESPAÑOL -->
+			<h3>Vida en Marte</h3>
+            
+			<p>Es un asunto terrible y pequeño<br>
+            Para la chica con el pelo del ratón<br>
+            Pero su mamá está gritando: ¡No!<br>
+            Y su papá le ha dicho que se vaya<br>
+            Pero su amiga no está donde ser vista<br>
+            Ahora camina a través de su sueño hundido<br>
+            A los asientos con la vista más clara<br>
+            Y está enganchada a la pantalla plateada<br>
+            Pero la película es sadd 'ning bore<br>
+            Porque lo ha vivido diez veces o más<br>
+            Podía escupir a los ojos de los necios<br>
+            Cuando le piden que se concentre en<br>
+            <br>
+            Marineros peleando en la sala de baile<br>
+            ¡Oh, hombre!<br>
+            Mira cómo se van esos cavernícolas<br>
+            Es el espectáculo más raro<br>
+            Echa un vistazo al hombre de la ley<br>
+            Golpeando al tipo equivocado<br>
+            ¡Oh, hombre!<br>
+            Me pregunto si alguna vez sabrá<br>
+            Está en el show más vendido<br>
+            ¿Hay vida en Marte?<br>
+            <br>
+            Está en la ceja torturada de América<br>
+            Que Mickey Mouse ha crecido una vaca<br>
+            Ahora los trabajadores han llamado a la fama<br>
+            Porque Lennon está a la venta otra vez<br>
+            Ver a los ratones en sus millones de hordas<br>
+            De Ibeza a las Broads Norfolk<br>
+            Regla Britannia está fuera de los límites<br>
+            A mi madre, a mi perro y a los payasos<br>
+            Pero la película es un agujero sadd 'ning<br>
+            Porque lo escribí diez veces o más<br>
+            Está a punto de ser escrito otra vez<br>
+            Como les pido que se concentren en<br>
+            <br>
+            Marineros luchando en la sala de baile<br>
+            ¡Oh, hombre!<br>
+            Mira cómo se van esos cavernícolas<br>
+            Es el espectáculo más raro<br>
+            Echa un vistazo al hombre de la ley<br>
+            Golpeando al tipo equivocado<br>
+            ¡Oh, hombre!<br>
+            Me pregunto si alguna vez sabrá<br>
+            Está en el show más vendido<br>
+            ¿Hay vida en Marte?</p> 	
+		</div>
+		<div class="col-1 col-md-4">
+            <!-- LETRA EN ALEMAN -->
+			<h3>Leben auf dem Mars</h3>
+                     
+			<p>Es erscheint dem Mädchen mit dem mausigen Haar<br>
+            Wie eine gottserbärmliche Kleinigkeit.<br>
+            Aber ihre Mami schreit: "Nein!"<br>
+            Und ihr Vati hat sie weggeschickt,<br>
+            Aber ihre Freundin ist nirgends zu sehen.<br>
+            <br>                
+            Jetzt schlendert sie durch ihren versunkenen Traum<br>
+            Zum Sitzplatz mit der besten Sicht<br>
+            Und sie blickt ganz gebannt auf die Kinoleinwand<br>
+            Doch der Film ist ein traurigmachender Langweiler<br>
+            Denn das hat sie schon zehn Mal, oder öfter erlebt.<br>
+            Sie ist stinksauer auf die Idioten,<br>
+            Die von ihr erwarten, sie solle ihre Aufmerksamkeit richten auf:<br>
+            <br>
+            Matrosen, die sich im Tanzsaal prügeln<br>
+            "Oh, Mann! - Schau dir mal die Höhlenmenschen an!"<br>
+            "Das ist der abgefahrenste Film!"<br>
+            "Schau mal, wie der Gesetzeshüter den Falschen verdrischt!"<br>
+            Oh, Mann!<br>
+            Ich frage mich, ob der jemals merkt,<br>
+            Dass er im größten Kassenschlager mitspielt.<br>
+            Gibt es Leben auf dem Mars?<br>
+            <br>
+            Es steht auf Amerikas geplagter Stirn geschrieben,<br>
+            Dass Mickey Mouse eine Kuh aufgezogen hat.<br>
+            Jetzt haben die Arbeiter für ihren Ruhm gestreikt,<br>
+            Denn Lennon steht wieder im Angebot.<br>
+            Schau, die Mäuse in ihren Millionenhorden,<br>
+            Von Ibiza bis zu den Norfolk Broads<br>
+            "Herrsche, Britannien" ist außer Rand und Band<br>
+            Für meine Mutter, meinen Hund und Clowns.<br>
+            <br>
+            Doch der Film ist ein traurigmachender Langweiler<br>
+            Denn den habe ich schon zehn Mal, oder öfter geschrieben.<br>
+            Er wird bald erneut geschrieben,<br>
+            Und ich bitte euch, eure Aufmerksamkeit zu richten auf:<br>
+            <br>
+            Matrosen, die sich im Tanzsaal prügeln<br>
+            "Oh, Mann! - Schau dir mal die Höhlenmenschen an!"<br>
+            "Das ist der abgefahrenste Film!"<br>
+            "Schau mal, wie der Gesetzeshüter den Falschen verdrischt!"<br>
+            Oh, Mann!<br>
+            Ich frage mich, ob der jemals merkt,<br>
+            Dass er im größten Kassenschlager mitspielt.<br>
+            Gibt es Leben auf dem Mars?</p> 
+		</div>  
+	</div>
+</div>
+
+<div class="container">
+    <!-- AÑO EN QUE FUE LANZADA LA CANCION -->
+	<h2>-Cover by Aurora Aksnes (February 19, 2016)</h2>
+	<br>
+    <br>
+    <br>
+	<h6>
+        <!-- FOOTER -->
+		<footer>AURORA &copy; Copyright. All Rights Reserved </footer> 
+	</h6>
+</div>
+<script>
+    var audio = document.getElementById('audio');
+	var playPauseBTN = document.getElementById('playPauseBTN');
+    var count = 0;
+
+	function playPause(){
+	    if(count == 0){
+            count = 1;
+            audio.play();
+            playPauseBTN.innerHTML = "Pause";
+	    }else{
+		    count = 0;
+		    audio.pause();
+		    playPauseBTN.innerHTML = "Play";
+	    }
+    }
+</script>
+</body>
+</html>
