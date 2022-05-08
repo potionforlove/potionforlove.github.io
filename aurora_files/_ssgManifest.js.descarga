@@ -1,0 +1,1 @@
+self.__SSG_MANIFEST=new Set(["\u002Fcampaigns\u002Fkaashpaige\u002Fyearbook\u002Fgallery","\u002Fcampaigns\u002Fpearljam\u002Fsetlistgenerator","\u002Fcampaigns\u002Fsuperm\u002Flivemap","\u002Fcampaigns\u002Frollingstones\u002Fcountdown","\u002Fchromatica","\u002Fcampaigns\u002Fsaintbodhi\u002F[id]"]);self.__SSG_MANIFEST_CB&&self.__SSG_MANIFEST_CB()

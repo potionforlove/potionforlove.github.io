@@ -19,6 +19,11 @@
   box-sizing: border-box;
 }
 
+@font-face {
+font-family: "spaceinvaders";
+src: url("media/spaceinvaders.otf") format("opentype");
+}
+
 .column {
   float: left;
   width: 33.33%;
@@ -50,18 +55,21 @@ button{
 	padding: 10px 25px;
 	font-size: 20px;
 	line-height: 10px;
-	min-width: 40px;
 	text-align: center;
 	cursor: pointer;
-	background: linear-gradient(to right bottom,#fff,#fff);
 	color: #000;
 	border-radius: 5px;
 	border:0px;
-	height: 30px;
 }
 h1{
 	text-align: center;
 	color: #fff;
+	margin: 2%;
+}
+h2{
+    font-family: spaceinvaders;
+	text-align: center;
+	color: #000;
 	margin: 2%;
 }
 h6{
@@ -106,6 +114,21 @@ img{
 <body>
     <div class="container">
         <img src="media/AURORA.png" class="center"/>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-1 col-md-4">
+            </div>
+            <div class="col-1 col-md-4">
+                <button onclick="window.location.href='Aurora.html'">
+                    <img src="media/load.gif" alt="this slowpoke moves"  width="50%" />
+                    <h2>Click to play</h2>
+                </button>
+                    
+            </div>
+            <div class="col-1 col-md-4">
+            </div> 
+        </div>
     </div>
     
     <div class="container">
