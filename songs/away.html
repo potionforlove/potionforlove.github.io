@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=1">
+
+<!-- TITULO DE LA PESTAÑA -->
+<title>Half The World Away</title>
+
+<link rel = "icon" href="/media/icon.jpg" type="image/x-icon">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<Style>
+	* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+*,*:after,*:before{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: Helvetica;
+	font-size: 16px;
+	margin: 0;
+	background: #000;
+	min-height: 100vh;
+	background:#000;
+}
+
+button{
+	padding: 10px 25px;
+	font-size: 22px;
+	line-height: 40px;
+	min-width: 40px;
+	text-align: center;
+	cursor: pointer;
+	background: linear-gradient(to right bottom,#fff,#fff);
+	color: #000;
+	border-radius: 5px;
+	border:0px;
+	height: 60px;
+}
+
+h2{
+	text-align: right;
+	color: #fff;
+	margin: 2%;
+}
+h6{
+	text-align: center;
+	color: #fff;
+	margin: 2%;
+}
+h3{
+	color: #fff;
+}
+p{
+	color: #fff;
+	font-size: smaller;
+}
+.container{
+	text-align: center;
+}
+.col-1{
+	padding: 6%;
+}
+
+</Style>
+</head>
+<body>
+    <!-- TITULO DE LA PAGINA -->
+    <h1 style="color: #fff; text-align: center; padding: 2%; font-size: 444%;">Half The World Away</h1>
+    <div class="container">
+        <br>
+		<br>
+		<button id="playPauseBTN" onclick="playPause()">Play</button>
+		<audio id="audio">
+			<source src="../mp3/away.mp3" type="audio/mpeg" script=>
+		</audio>
+		<br>
+		<br>
+		<br>
+	</div>
+
+<div class="container">
+	<div class="row">
+		<div class="col-1 col-md-4">
+            <!-- LETRA EN INGLES -->
+			<!-- <h3>This Could Be a Dream</h3>
+
+			<p>Look up at the light</p>  -->
+ 
+		</div>
+		<div class="col-1 col-md-4">
+            <!-- LETRA EN ESPAÑOL -->
+			<!-- <h3>Esto Podria Ser Un Sueño</h3>
+            
+			<p>Mira la luz</p>  -->
+			
+		</div>
+		<div class="col-1 col-md-4">
+            <!-- LETRA EN ALEMAN -->
+			<!-- <h3>Es könnte ein Traum sein</h3>
+                     
+			<p>Schau nach oben, auf das Licht</p>  -->
+			
+		</div>  
+	</div>
+</div>
+
+<div class="container">
+    <!-- AÑO EN QUE FUE LANZADA LA CANCION -->
+	<h2>-Noel Gallagher (November 28, 2015)</h2>
+	<br>
+    <br>
+    <br>
+	<h6>
+        <!-- FOOTER -->
+		<footer>AURORA &copy; Copyright. All Rights Reserved </footer> 
+	</h6>
+</div>
+<script>
+    var audio = document.getElementById('audio');
+	var playPauseBTN = document.getElementById('playPauseBTN');
+    var count = 0;
+
+	function playPause(){
+	    if(count == 0){
+            count = 1;
+            audio.play();
+            playPauseBTN.innerHTML = "Pause";
+	    }else{
+		    count = 0;
+		    audio.pause();
+		    playPauseBTN.innerHTML = "Play";
+	    }
+    }
+</script>
+</body>
+</html>
