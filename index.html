@@ -46,9 +46,11 @@ body{
 	font-family: Helvetica;
 	font-size: 16px;
     font-weight: bolder;
-	background: #000;
+	background-image: url('media/Aurora.jpg');
 	min-height: 100vh;
-	background:#000;
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 button{
@@ -104,16 +106,13 @@ p{
 .col-1{
 	padding: 2%;
 }
-img{
-    width: 50%;
-    padding: 4%;
-}
+
 
 </Style>
 </head>
 <body>
     <div class="container">
-        <img src="media/AURORA.png" class="center"/>
+        <img src="media/AURORA.png" class="center"  width="50%" style=" padding: 4%;"/>
     </div>
     <div class="container">
         <div class="row">
@@ -121,7 +120,7 @@ img{
             </div>
             <div class="col-1 col-md-4">
                 <button onclick="window.location.href='https://glitch.ge/aurora/runner/v2'">
-                    <img src="media/load.gif" alt="this slowpoke moves"  width="50%" />
+                    <img src="media/load.gif" alt="this slowpoke moves"  width="50%" style=" padding: 4%;"/>
                     <h2>Click to play</h2>
                 </button>
                     
@@ -190,11 +189,11 @@ img{
         </div>
     </div>
 <div class="container">
-	<h6>-a page made by Warrior222</h6>
-    <img src="media/63.gif" alt="this slowpoke moves"  width="50%" />
+    <img src="media/63.gif" width="25%"/>
     <h5>
-    AURORA &copy; Copyright. All Rights Reserved
     </h5>
+    <br>
+    <h6 style="font-weight:bold;"> Page made by<img src="media/Warrior222.png" width="15%"/></h6>
 </div>
 </body>
 </html>
