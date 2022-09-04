@@ -90,21 +90,58 @@ iframe{
 }
 
 </Style>
+<script>
+
+  
+	// Set up the image files to be used.
+	var theImages = new Array() // do not change this
+	// To add more image files, continue with the
+	// pattern below, adding to the array.
+	
+	theImages[0] = '../media/gif/1.gif'
+	theImages[1] = '../media/gif/2.gif'
+	theImages[2] = '../media/gif/3.gif'
+	theImages[3] = '../media/gif/4.gif'
+	theImages[4] = '../media/gif/5.gif'
+	theImages[5] = '../media/gif/6.gif'
+	theImages[6] = '../media/gif/7.gif'
+	theImages[7] = '../media/gif/8.gif'
+	theImages[8] = '../media/gif/9.gif'
+	theImages[9] = '../media/gif/10.gif'
+	theImages[10] = '../media/gif/11.gif'
+	
+	// do not edit anything below this line
+	
+	var j = 0
+	var p = theImages.length;
+	var preBuffer = new Array()
+	for (i = 0; i < p; i++){
+	   preBuffer[i] = new Image()
+	   preBuffer[i].src = theImages[i]
+	}
+	var whichImage = Math.round(Math.random()*(p-1));
+	function showImage(){
+	document.write('<img src="'+theImages[whichImage]+'"width="20%">');
+	}
+	
+</script>
 </head>
 <body>
     <!-- TITULO DE LA PAGINA -->
-    <h1 style="color: #fff; text-align: center; padding: 2%; font-size: 444%;">Half The World Away</h1>
+	<div class="container">
+        <!-- <img src="media/63.gif" width="30%"/> -->
+        <script>
+            showImage();
+        </script>
+    </div>
+    <h1 style="color: #fff; text-align: center; font-size: 444%;">Half The World Away</h1>
     <div class="container">
-        <br>
-		<br>
 		<button id="playPauseBTN" onclick="playPause()">Play</button>
 		<audio id="audio">
 			<source src="../mp3/away.mp3" type="audio/mpeg" script=>
 		</audio>
-		<br>
-		<br>
-		<br>
 	</div>
+	
 
 <div class="container">
 	<div class="row">
